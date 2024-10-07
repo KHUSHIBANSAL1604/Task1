@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+}
+ .navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 13vh;
+    width: 70%;
+    margin: auto;
+}
+.navlist{
+    display: flex;
+    gap: 4rem;
+}
+.fa-solid fa-magnifying-glass-location
+{
+    font-size: 50px;
+}
+.fa-solid fa-cart-shopping
+ {
+    font-size: 50px;
+ }
+ .fa-solid fa-user
+ {
+    font-size: 50px;
+ }
+.navbar .logo{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(35,35,35);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 200%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img {
+    float: left;
+    width: 30%;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+ }
+ 30% {
+    left: 0;
+
+ }
+ 30%
+ {
+    left: -100%;
+
+ }
+ 30%
+ {
+    left: -100%;
+ }
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product{
+    padding: 8px;
+    
+}
+
+
+
